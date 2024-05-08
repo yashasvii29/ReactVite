@@ -4,8 +4,7 @@ import Home from './Components/Home';
 import Admin from './Components/Admin';
 import { Suspense } from 'react';
 // import Products  from './Components/Products';
-const Products = React.lazy(()=> import("./Components/Products")
-)
+const Products = React.lazy(()=> import("./Components/Products"))
 
 const App = () => {
   return (
